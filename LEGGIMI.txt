@@ -1,0 +1,13 @@
+POD STUDIO — PROTOTIPO PWA 001
+
+Contenuto: generatore locale poster 12×16 pollici, anteprima, PNG 3600×4800, salvataggio locale e dieci test di impaginazione.
+
+USO SU ANDROID:
+1. Pubblica il contenuto di questa cartella su un hosting statico HTTPS di tua scelta (per esempio GitHub Pages, Cloudflare Pages o Netlify). Non è necessario aprire Etsy.
+2. Apri l'indirizzo HTTPS da Chrome Android e scegli «Aggiungi a schermata Home» / «Installa app» quando disponibile.
+3. Dopo la prima apertura online e il completamento della cache, l'app può funzionare offline sul dispositivo.
+4. Per esportare usa «Esporta PNG». Su Android puoi scegliere Condividi/Salva oppure trovare il file nei download.
+
+TEST LOCALE SU PC: esegui nella cartella `python -m http.server 8000`, poi apri http://localhost:8000. Aprire index.html come file locale può mostrare la pagina ma non abilita l'installazione PWA/offline.
+
+ATTENZIONE: non è ancora stata pubblicata online, non è stata installata sul tuo telefono e non è collegata a Printify/Etsy. La qualità dell'illustrazione raster deve essere verificata con una prova di stampa. Il PNG non incorpora necessariamente metadata DPI: 3600×4800 pixel equivalgono a 300 pixel/pollice stampati a 12×16 pollici.
